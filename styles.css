@@ -114,7 +114,7 @@ img {
     border: rgb(167, 148, 148)   solid 1.5px;
     padding: 9px 15px;
     border-radius: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 900px) {

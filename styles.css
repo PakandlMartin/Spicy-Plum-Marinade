@@ -1,0 +1,166 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+margin-top: 5px;
+margin-left: 10px;
+margin-right: 10px;
+max-width: 1200px;
+background-color: rgb(234, 228, 198);
+font-size: 0.8rem;
+border-radius: 8px;
+}
+
+.container {
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+h2 {
+    margin-bottom: -2px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+.green {
+    color: rgb(16, 139, 16);
+}
+
+.bold {
+font-weight: bold;
+}
+
+.italicText {
+    font-style: italic;
+}
+
+.inlineHeading {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.sections-first {
+    display: flex;
+    margin-top: 15px
+}
+
+.firstSection {
+    border: rgb(167, 148, 148) 2px solid;
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+    min-width: 55%;
+}
+
+.secondSection {
+    border: rgb(167, 148, 148) 2px solid;
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+    min-width: 35%;
+    margin-left: 10px;
+}
+
+.secondSection > p {
+    margin-top: 0.5rem;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+img {
+    min-width: 12rem;
+    max-width: 35%;
+}
+
+.sections-second {
+    border: rgb(167, 148, 148) 2px solid;
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+}
+
+.sections-second > p {
+    line-height: 2;
+}
+
+.sections-second > p:last-child {
+    margin-bottom: 15px;
+}
+
+.num {
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(58, 56, 56);
+    border: rgb(167, 148, 148)   solid 1.5px;
+    padding: 9px 15px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        padding: 0.5rem;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+        font-size: 0.6rem;
+    }
+
+   .sections-first {
+    display: inherit;
+   }
+
+   .firstSection {
+    display: block;
+    min-width: 92%;
+    margin-bottom: 20px;
+   }
+
+   .secondSection {
+    display: block;
+    min-width: 92%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+   }
+
+   .images {
+    margin-bottom: 20px;
+   }
+}
+
+
+@media only screen and (
+    max-width: 600px) {
+  .images {
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    min-width: 98%;
+}
+
+main {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+}
